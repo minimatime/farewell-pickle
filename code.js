@@ -8,7 +8,7 @@ function getRandomInt(min, max) {
 
 
 
-var SPREADSHEET_ID_AND_TAB = "1gLyh6gv41vl9H1fBmjFrGfKip9dKkvIu6o8sccTw2lY/Clouds";
+var SPREADSHEET_ID_AND_TAB = "1d8vWa0DH3_U91bnHHys6ephanFJXggH1KrsVn1BmhXI/Responses";
 
 
 $(document).ready(function () {

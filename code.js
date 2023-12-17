@@ -20,8 +20,8 @@ $(document).ready(function () {
       
       if(index == 0) return;
       
-      let div = $(`<div class='cloud' type='` + row.name +`' index="` + index +`">
-        <span class='emoji'>` + row.emoji +`</span>
+      let div = $(`<div class='cloud' type='` + row.type +`' index="` + index +`">
+        <span class='emoji'>` + row.cloud +`</span>
         <p>` +  row.msg + `</p>
         </div>`)
       .addClass( (row.size).toLowerCase() )

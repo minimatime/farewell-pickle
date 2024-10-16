@@ -1,48 +1,29 @@
-<!DOCTYPE html>
 <html>
   <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Clouds</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="./stylesheet.css" type="text/css" />
+    
+    <!--  This appears as your tab's title -->
+    <title>With Love, to Edmund! 💕</title>
+    
+    <!-- Call on style.css -->
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+
+    <!--  Javascript goes here... sorry we're using jquery -->
+    <script src="//code.jquery.com/jquery-3.6.0.min.js"type="text/javascript"></script>
+    <script src="script.js" type="text/javascript"></script>
   </head>
   <body>
-    
-    <header>
-      <a href="../index.html">Back</a>
-      <h1>Messages</h1>
-    </header>
-    
-    
-    <!-- Use this to filter the clouds you can see -->
-    <div id="filter">
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfhBpD_aRr58ncPK2VuC2Fy0oiSbSXtGBzA_1oWDOJzoIBY5Q/viewform?usp=sf_link" target="_blank">Submit a cloud</a><br>
-      <button filter="all">Show All</button>
-      <button filter="question">Questions</button>
-      <button filter="comment">Comments</button>
-      <button filter="wish">Wishes</button>
+    <div style="display: flex; flex-direction: column;">
+      <h1>With love, to Edmund! 💕</h1>
+      <div id="entries" style="display: flex; flex-wrap: wrap; justify-content: center;"></div>
+      <p style="font-size: 0.75rem; display: flex; justify-content: center; align-items: center;">
+        - from the people whose lives you've changed for the best -
+      </p>
+      <p style="font-size: 0.5rem; display: flex; justify-content: center;">
+        [developed by siri + natasha 💛]
+      </p>
     </div>
-    
-    <!--  Clouds are dumped here -->
-    <div id="clouds">
-    
-    
-    </div>
-    
-    <!--  This appears when you click on a cloud  -->
-    
-    <div id="look">
-      <div class="wrapper">
-        <div class="cloud">
-    <span class="emoji"></span>
-    <p></p>
-    <button hide>Let go of cloud</button>
-        </div>
-        </div>
-    </div>
-    
-    <script src="//code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
-    <script src="code.js" type="text/javascript"></script>
   </body>
 </html>
